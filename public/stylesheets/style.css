@@ -1,0 +1,407 @@
+body {
+  margin: 0;
+}
+
+.container {
+  max-width: 1300px;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 30px;
+  text-align: center;
+}
+
+header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  background-color: rgba(225,225, 225, 0.1);
+  max-width: 1500px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-left img {
+  width: 270px;
+}
+
+.Japan {
+  letter-spacing: 5px;
+}
+
+.header-fa  {
+  float: right;
+  padding-top: 8px;
+  display: none;
+}
+
+.header-right {
+  display: block;
+  float: right;
+  padding-right: 10px;
+  padding-top: 10px;
+  box-sizing: border-box;
+}
+
+.header-right a:hover {
+  opacity: 0.7;
+}
+
+.menu-botton {
+  color: white;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.entry .menu-botton {
+  color: black;
+}
+
+.header-side {
+  float: left;
+  padding: 20px 16px;
+  font-size: 13px;
+  margin-top: -5px;
+}
+
+.entry {
+  background-color: white;
+  border-radius: 3px;
+  margin: 0px 0;
+  padding: 16px 30px;
+  margin-left: 5px;
+}
+
+.entry .fa {
+  padding-right: 3px;
+}
+
+.clear {
+  clear: both;
+}
+
+.top-wrapper {
+  height: 789px;
+  background-image: url(/images/earth2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.center {
+  margin-top: 220px;
+}
+
+.top-line {
+  display: flex;
+  justify-content: center;
+}
+
+.think {
+  color: white;
+  letter-spacing: 6px;
+  font-size: 70px;
+  padding-top: 100px;
+  padding-right: 10px;
+}
+
+.center .top-line span {
+  letter-spacing: -3px;
+}
+
+.new-picture {
+  padding-top: 60px;
+  padding-left: 15px;
+  width: 140px;
+  height: 120px;
+  opacity: 0.8;
+  transform: rotate(10deg);
+}
+
+.line {
+  color: white;
+  font-size: 60px;
+  font-weight: bold;
+  padding-top: 103px;
+}
+
+.light-picture {
+  width: 130px;
+  height: 135px;
+  opacity: 0.9;
+  padding-top: 30px;
+  transform: rotate(-14deg);
+}
+
+.sub-title {
+  color: white;
+  font-weight: bolder;
+  font-size: 18px;
+  font-family: "YuGothic";
+  padding-top: 10px;
+  letter-spacing: 3.5px;
+}
+
+.sub-title span {
+  letter-spacing: 6px;
+}
+
+.top-wrapper i {
+  font-size: 30px;
+  color: white;
+  padding-top: 220px;
+}
+
+.second {
+  font-family: Courier;
+  font-weight: lighter;
+  max-width: 1500px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.top-row {
+  position: relative;
+}
+
+.company-about, .secondhand-dealer-form {
+  font-size: 30px;
+  font-family: "YuGothic";
+  padding-top: 100px;
+  padding-bottom: 90px;
+  opacity: 0.7;
+  position: relative;
+  text-align: center;
+}
+
+.company-about::before {
+  content: "";
+  border-bottom: 3px solid #000;
+  width: 30px;
+  padding-top: 48px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  position: absolute;
+}
+
+.about{
+  font-size: 210px;
+  opacity: 0.04;
+  position: absolute;
+  top: -40px;
+  right: 23px;
+  letter-spacing: 9px;
+}
+
+.second .top-row .about span {
+  font-family: cursive;
+  display: block;
+  transform: rotate(7deg);
+  float: left;
+}
+
+.second-row {
+  background-color: rgba(00, 00, 00, 0.9);
+  padding-top: 80px;
+  padding-bottom: 100px;
+  padding-right: 5%;
+  padding-left: 5%; 
+}
+
+.six-point-about {
+  padding-bottom: 35px;
+  opacity: 0.9;
+  font-size: 20px;
+  color: white;
+}
+
+.bdTtl {
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+}
+
+.bdTtl:before,.bdTtl:after {
+  border-top: 1px solid white;
+  opacity: 0.9;
+  content: "";
+  flex-grow: 0; 
+  width: 330px;
+}
+  
+.bdTtl:before {
+  margin-right: 0.5rem;
+}
+  
+.bdTtl:after {
+  margin-left: 0.5rem;
+}
+
+.six-point {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: center; 
+}
+
+.point {
+  width: 270px;
+  height: 230px;
+  background-color: white;
+  padding: 40px 20px 40px 20px;
+  margin: 13px;
+}
+
+.point-title {
+  font-size: 18px;
+  padding-bottom: 20px;
+  opacity: 0.75;
+}
+
+.point img {
+  width: 75px;
+}
+
+.description {
+  font-size: 15px;
+  font-family: "MS ゴシック";
+  padding-top: 25px;
+  opacity: 0.8;
+}
+
+.secondhand-dealer-form::before {
+  content: "";
+  border-bottom: 3px solid #000;
+  width: 30px;
+  padding-top: 48px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  position: absolute;
+}
+
+.hart {
+  font-size: 210px;
+  opacity: 0.04;
+  position: absolute;
+  top: -40px;
+  right: 23px;
+  letter-spacing: 9px;
+}
+
+.hart span {
+  font-family: cursive;
+  display: block;
+  transform: rotate(7deg);
+  float: left;
+}
+
+.third-row {
+  width: 98%;
+  box-sizing: border-box;
+  padding: 1%;
+  background-color: rgba(36,90,128,0.7);
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+.white {
+  height: 100%;
+  margin: auto; 
+  background-color:rgb(248,248,248);
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 10px;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  box-sizing: border-box;
+}
+
+.white img {
+  width: 45%;
+  opacity: 0.9;
+}
+
+.form {
+  flex-basis: 70%;
+  text-align: center;
+}
+
+.cp_iptxt {
+	position: relative;
+	width: 80%;
+  margin: 45px 20%;
+  box-sizing: border-box;
+}
+
+.cp_iptxt input[type='text'] {
+	font: 15px/34px sans-serif;
+	box-sizing: border-box;
+	width: 100%;
+	padding: 0.3em;
+	padding-left: 40px;
+	letter-spacing: 1px;
+	border: 0;
+}
+
+.cp_iptxt input[type='text']:focus {
+	outline: none;
+}
+
+.cp_iptxt input[type='text']:focus::after {
+	outline: none;
+}
+
+.cp_iptxt i {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 13px 5px;
+	transition: 0.3s;
+	color: #aaaaaa;
+}
+
+.cp_iptxt::after {
+	display: block;
+	width: 100%;
+	height: 4px;
+	margin-top: -1px;
+	content: '';
+	border-width: 0 1px 1px 1px;
+	border-style: solid;
+	border-color: #da3c41;
+}
+
+input {
+  border-radius: 7px;
+}
+
+.register-botton {
+  font-size: 17px;
+  padding: 1px 30px;
+  color: rgba(43, 42, 42, 0.671);
+  border: 2px solid rgba(00, 00, 00, 0.3);
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0px 4px #999;
+  cursor: pointer;
+}
+
+.register-botton:active {
+  position: relative;
+  top: 4px;
+  box-shadow: none;
+}
+
+.register-botton:focus {
+  outline: none;
+}
+
+
