@@ -15,7 +15,7 @@ header {
   position: fixed;
   top: 0;
   z-index: 10;
-  background-color: rgba(225,225, 225, 0.1);
+  background-color: rgba(225,225, 225, 0);
   max-width: 1500px;
 }
 
@@ -24,7 +24,8 @@ header {
 }
 
 .header-left img {
-  width: 270px;
+  padding-top: 3.5px;
+  width: 200px;
 }
 
 .Japan {
@@ -53,6 +54,7 @@ header {
   color: white;
   font-weight: bold;
   letter-spacing: 1px;
+  text-decoration: none;
 }
 
 .entry .menu-botton {
@@ -166,7 +168,7 @@ header {
   position: relative;
 }
 
-.company-about, .secondhand-dealer-form {
+.company-about {
   font-size: 30px;
   font-family: "YuGothic";
   padding-top: 100px;
@@ -196,15 +198,17 @@ header {
   letter-spacing: 9px;
 }
 
-.second .top-row .about span {
+.about span {
   font-family: cursive;
   display: block;
   transform: rotate(7deg);
   float: left;
 }
 
+
+
 .second-row {
-  background-color: rgba(00, 00, 00, 0.9);
+  background-color: rgba(00, 00, 00, 0.85);
   padding-top: 80px;
   padding-bottom: 100px;
   padding-right: 5%;
@@ -272,40 +276,28 @@ header {
   opacity: 0.8;
 }
 
-.secondhand-dealer-form::before {
-  content: "";
-  border-bottom: 3px solid #000;
-  width: 30px;
-  padding-top: 48px;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
-  position: absolute;
+.second-row-cript {
+  height: 600px;
+  text-align: center;
+  background-image: url();
+  background-color: rgba(45, 45, 46, 0.15);
+  padding: 50px 0;
 }
 
-.hart {
-  font-size: 210px;
-  opacity: 0.04;
-  position: absolute;
-  top: -40px;
-  right: 23px;
-  letter-spacing: 9px;
-}
-
-.hart span {
-  font-family: cursive;
-  display: block;
-  transform: rotate(7deg);
-  float: left;
+.white-cript {
+  text-align: center;
+  margin: 15px auto;
+  background-color: white;
+  width: 80%;
 }
 
 .third-row {
-  width: 98%;
+  width: 100%;
   box-sizing: border-box;
-  padding: 1%;
+  padding: 4%;
   background-color: rgba(36,90,128,0.7);
   margin: auto;
-  margin-bottom: 50px;
+  margin-bottom: 0px;
 }
 
 .white {
@@ -317,8 +309,8 @@ header {
   justify-content: space-around;
   align-items: center;
   border-radius: 10px;
-  padding-left: 2%;
-  padding-right: 2%;
+  padding-left: 3%;
+  padding-right: 3%;
   padding-top: 30px;
   padding-bottom: 30px;
   box-sizing: border-box;
@@ -385,12 +377,12 @@ input {
 
 .register-botton {
   font-size: 17px;
-  padding: 1px 30px;
-  color: rgba(43, 42, 42, 0.671);
-  border: 2px solid rgba(00, 00, 00, 0.3);
-  background-color: white;
-  border-radius: 5px;
-  box-shadow: 0px 4px #999;
+  padding: 6px 60px;
+  color: #ffffff;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  background-color: #ff892B;
+  border-radius: 30px;
+  box-shadow: 0px 4px #bd6822;
   cursor: pointer;
 }
 
@@ -404,4 +396,66 @@ input {
   outline: none;
 }
 
+.attention {
+  font-size: 10px;
+}
+
+.hole {
+  text-align: center;
+}
+
+footer .up {
+  background-color: rgb(246,245,245);
+  padding: 20px;
+}
+
+.footer-logo {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.footer-logo img{
+  width: 130px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  border-bottom: 0.5px solid rgba(00, 00, 00, 0.8);
+  margin-bottom: 10px;
+}
+
+.footer-location {
+  padding-top: 7px;
+}
+
+.footer-number {
+  padding-bottom: 7px;
+}
+
+.footer-location, .footer-number {
+  text-align: center;
+  font-size: 6px;
+  letter-spacing: 1.5px;
+}
+
+.social-icon {
+  text-align: center;
+  display: inline-block;
+  background: rgba(94, 144, 255, 0.9);
+  width: 24px;
+  height: 24px;
+  padding-top: 5px;
+  border-radius: 50%;
+  color: white;
+  font-size: 15px;
+  box-sizing: border-box;
+  margin: 10px;
+  
+}
+
+footer .down {
+  font-size: 12px;
+  color: white;
+  background-color: rgb(50,50,50);
+  padding: 20px 0px;
+}
 
