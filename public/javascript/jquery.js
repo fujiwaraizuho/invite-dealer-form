@@ -17,9 +17,9 @@ $(function() {
         },'slow');
     });
 
-    //ヘッダースクロールごとの変更
-    var imgHeight = $('.js-mainVisual').outerHeight(); //画像の高さを取得。これがイベント発火位置になる。
-    var header = $('.js-header'); //ヘッダーコンテンツ
+    //ヘッダースクロールのカラー変更
+    var imgHeight = $('.top-wrapper').outerHeight(); //画像の高さを取得。これがイベント発火位置になる。
+    var header = $('#top'); //ヘッダーコンテンツ
       
     $(window).on('load scroll', function(){
         if ($(window).scrollTop() < imgHeight) {
@@ -31,6 +31,9 @@ $(function() {
         }
     });
 
+    //フォーム送信内容が空の場合のエラーメッセージ
+
+    
     //SNSボタン
     $('#social-icon').hover(
         function() {
