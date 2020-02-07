@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="859px" height="215px" viewBox="0 0 859 215" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>Group 10</title>
+    <desc>Created with Sketch.</desc>
+    <g id="wireflame" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-10">
+            <g id="Group-9">
+                <rect id="Rectangle" fill="#D8D8D8" x="0" y="0" width="859" height="215"></rect>
+                <g id="Group-4" transform="translate(343.000000, 35.000000)">
+                    <text id="０円" font-family="HiraginoSans-W6, Hiragino Sans" font-size="83.2" font-weight="500" letter-spacing="3.8129364">
+                        <tspan x="32.4535776" y="146" fill="#ED5B4F">０</tspan>
+                        <tspan x="119.466514" y="146" font-size="19.2" letter-spacing="0.879908371" fill="#000000">円</tspan>
+                    </text>
+                    <rect id="Rectangle" stroke="#4F4F4F" stroke-width="3" fill="#FFFFFF" x="0" y="0" width="172" height="58"></rect>
+                    <text id="年会費" font-family="HiraginoSans-W6, Hiragino Sans" font-size="20" font-weight="500" letter-spacing="0.916571259" fill="#000000">
+                        <tspan x="55.1251431" y="37">年会費</tspan>
+                    </text>
+                </g>
+                <g id="Group-8" transform="translate(57.000000, 35.000000)">
+                    <g id="Group-7">
+                        <rect id="Rectangle" stroke="#4F4F4F" stroke-width="3" fill="#FFFFFF" x="0" y="0" width="172" height="58"></rect>
+                        <text id="入会金" font-family="HiraginoSans-W6, Hiragino Sans" font-size="20" font-weight="500" letter-spacing="0.916571259" fill="#000000">
+                            <tspan x="54.1251431" y="37">入会金</tspan>
+                        </text>
+                    </g>
+                    <text id="０円" font-family="HiraginoSans-W6, Hiragino Sans" font-size="83.2" font-weight="500" letter-spacing="3.8129364">
+                        <tspan x="32.4535776" y="146" fill="#ED5B4F">０</tspan>
+                        <tspan x="119.466514" y="146" font-size="19.2" letter-spacing="0.879908371" fill="#000000">円</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="Group-6" transform="translate(622.000000, 36.000000)">
+                <g id="Group-5">
+                    <rect id="Rectangle" stroke="#4F4F4F" stroke-width="3" fill="#FFFFFF" x="0" y="0" width="172" height="58"></rect>
+                    <text id="売り歩" font-family="HiraginoSans-W6, Hiragino Sans" font-size="20" font-weight="500" letter-spacing="0.916571259" fill="#000000">
+                        <tspan x="54.1251431" y="37">売り歩</tspan>
+                    </text>
+                </g>
+                <text id="０%" font-family="HiraginoSans-W6, Hiragino Sans" font-size="83.2" font-weight="500" letter-spacing="3.8129364">
+                    <tspan x="33.0775776" y="145" fill="#ED5B4F">０</tspan>
+                    <tspan x="120.090514" y="145" font-size="19.2" letter-spacing="0.879908371" fill="#000000">%</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
