@@ -32,19 +32,21 @@ $(function() {
     });
 
     //フォーム送信内容が空の場合のエラーメッセージ
-    $('#form').submit(function() {
-
-        // form1が空のとき、エラー文を表示してください
-        if ( $('.form1').val() === '') {
-            $('.error-message-1').text('入力してーーー');
-        } else {
-            $('.error-message-1').text('');
-            $('#form').submit();
+    $('.register-button').on('click', function(){
+        let isEmpty = false;
+        jQuery('#form1, #form2, #fomr3, #form4, #form5').each(function(){
+        if(jQuery(this).val() === ''){
+            alert('必須項目が入力されていません！');
+            $(this).focus();
+            isEmpty = true;
+            return false;
         }
-
-        return false;
-      });
-
+        });
+        if(isEmpty)
+            return false;
+        else
+        alert('送信完了！');
+    });
       
 
     //SNSボタン
