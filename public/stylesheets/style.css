@@ -6,7 +6,8 @@ body {
   max-width: 1300px;
   width: 100%;
   margin: 0 auto;
-  padding-top: 30px;
+  padding-top: 10px;
+  padding-bottom: 75px;
   text-align: center;
 }
 
@@ -15,8 +16,12 @@ header {
   position: fixed;
   top: 0;
   z-index: 10;
-  background-color: rgba(225,225, 225, 0);
+  background-color: rgba(225,225, 225, 0.2);
   max-width: 1500px;
+}
+
+.headerColor-default {
+  background-color: rgba(255, 0, 0, 0.836);
 }
 
 .header-left {
@@ -443,6 +448,10 @@ input {
   cursor: pointer;
 }
 
+.register-button:hover {
+  color: rgba(225, 225, 225, 0.9);
+}
+
 .register-button:active {
   position: relative;
   top: 4px;
@@ -497,17 +506,23 @@ footer .up {
 .social-icon {
   text-align: center;
   display: inline-block;
-  background: rgba(94, 144, 255, 0.9);
+  background: rgba(94, 144, 255, 0.75);
+  color: #e3e3e3;
   width: 24px;
   height: 24px;
-  padding-top: 5px;
+  padding-top: 4px;
   border-radius: 50%;
   color: white;
-  font-size: 15px;
+  font-size: 12px;
   box-sizing: border-box;
   margin: 10px;
-  
 }
+
+.social-icon:hover{
+  color: #e3e3e3;
+  background-color: rgb(94, 144, 255);
+}
+
 
 footer .down {
   font-size: 12px;

@@ -32,8 +32,20 @@ $(function() {
     });
 
     //フォーム送信内容が空の場合のエラーメッセージ
+    $('#form').submit(function() {
+        var textValue = $('.cp_iptxt').val();
+        
+        // textValueが空のとき、エラー文を表示してください
+        if ( $('.form1').val() === '') {
+            $('.error-message-1').text('入力してーーー');
+        } else {
+            $('.error-message-1').text('');
+        }
 
-    
+        return false;
+      });
+
+
     //SNSボタン
     $('#social-icon').hover(
         function() {

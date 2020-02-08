@@ -10,21 +10,21 @@
         <link rel="icon" type="image/png" href="/images/logo.png">
     </head>
     <body>
-        <header>
+        <header id="top">
             <div class="container">
                 <div class="header-left">
-                    <img class="logo" src="/images/company-logo.png"> 
+                    <img class="logo scroll-top" src="/images/company-logo.png"> 
                 </div>
                 <span class="fa fa-bars header-fa"></span>
                 <div class="header-right">
-                    <a href="#" class="menu-button header-side">TOP</a>
-                    <a href="#" class="menu-button header-side">日本暗号資産市場株式会社について</a>
-                    <a href="#" class="menu-button header-side">市場ご参加までの流れ</a>
-                    <a href="#" class="menu-button header-side" >料金体系</a>
+                    <a href="#top" class="menu-button header-side scroll-top">TOP</a>
+                    <a href="#about" class="menu-button header-side">日本暗号資産市場株式会社について</a>
+                    <a href="#guid" class="menu-button header-side">市場ご参加までの流れ</a>
+                    <a href="#price" class="menu-button header-side" >料金体系</a>
                     <!--<a href="#" class="menu-button header-side">社長メッセージ</a>-->
                     <div class="entry header-side">
                         <span class="fa fa-edit"></span>
-                        <a href="#" class="menu-button">無料登録</a>
+                        <a href="#register" class="menu-button">無料登録</a>
                     </div>
                 </div>
             </div>
@@ -40,7 +40,7 @@
                 </div>
             </div>
         </div>
-        <div class="second">
+        <div class="second" id="about">
             <div class="top-row">
                 <div class="company-about">日本暗号資産市場株式会社について</div>
                 <div class="about"><span>A</span><span>b</span><span>o</span><span>u</span><span>t</span></div>
@@ -82,7 +82,7 @@
                 <div class="clear"></div>
             </div>
         </div>
-        <div class="fourth-row">
+        <div class="fourth-row" id="guid">
             <div class="top-row">
                 <div class="company-about">市場ご参加までの流れ</div>
                 <div class="about"><span>G</span><span>u</span><span>i</span><span>d</span></div>
@@ -98,7 +98,7 @@
                 </div>
             </div>
         </div>
-        <div class="fifth-row">
+        <div class="fifth-row" id="price">
             <div class="top-row">
                 <div class="company-about">料金体系</div>
                 <div class="about"><span>P</span><span>r</span><span>i</span><span>c</span><span>e</span></div>
@@ -121,39 +121,44 @@
                  <div class="about"><span>F</span><span>o</span><span>r</span><span>m</span></div>
             </div>
         </div>
-        <div class="third-row">
+        <div class="third-row" id="register">
             <div class="white">
                 <img src="/images/building.svg">
                 <div class="form">
-                    <form method="post" action="/post">
-                        <div class="cp_iptxt">
+                    <form id="form" method="post" action="/post">
+                        <div class="cp_iptxt cp_iptxt-1">
                             <div class="item">
                                 <input type="text" placeholder="山田 太郎" name="userName">
                                 <i class="fa fa-user fa-lg fa-fw" aria-hidden="true"></i>
+                                <div class="error-message error-message-1"></div>
                             </div>
                         </div>
-                        <div class="cp_iptxt">
+                        <div class="cp_iptxt cp_iptxt-2">
                             <div class="item">
                                 <input type="text" placeholder="ヤマダ　タロウ" name="kana">
                                 <i class="fa fa-user fa-lg fa-fw" aria-hidden="true"></i>
+                                <div class="error-message error-message-2"></div>
                             </div>
                         </div>
-                        <div class="cp_iptxt">
+                        <div class="cp_iptxt cp_iptxt-3">
                             <div class="item">
                                 <input type="text" placeholder="会社名" name="companyname">
                                 <i class="fa fa-building fa-lg fa-fw" aria-hidden="true"></i>
+                                <div class="error-message error-message-3"></div>
                             </div>
                         </div>
-                        <div class="cp_iptxt">
+                        <div class="cp_iptxt cp_iptxt-4">
                             <div class="item">
                                 <input type="text" placeholder="mail" name="mail">
-                                <i class="fa fa-envelope fa-lg fa-fw" aria-hidden="true"></i>
+                                <i class="fa fa-envelope fa-lg fa-fw" aria-hidden="true"></i>  
+                                <div class="error-message error-message-4"></div>                              
                             </div>
                         </div>
-                        <div class="cp_iptxt">
+                        <div class="cp_iptxt cp_iptxt-5">
                             <div class="item">
                                 <input type="text" placeholder="古物商許可番号" name="secondhanddealernumber">
                                 <i class="fa fa-list-ol fa-lg fa-fw" aria-hidden="true"></i>
+                                <div class="error-message error-message-5"></div>
                             </div>
                         </div>
                         <!--<div class="cp_iptxt">
@@ -174,7 +179,7 @@
                     <div class="footer-logo"><img src="/images/company-logo.png"></div>
                     <div class="footer-location">〒161-0033 新宿区下落合3-15-22 ランドール目白502</div>
                     <div class="footer-number">03-6908-3514</div>
-                    <a href="https://twitter.com/ocurima" class="social-icon" target='_blank'>
+                    <a href="https://twitter.com/ocurima" class="social-icon" id="social-icon" target='_blank'>
                         <i class="fa fa-twitter" aria-hidden="true"></i>
                     </a>
                 </div>
