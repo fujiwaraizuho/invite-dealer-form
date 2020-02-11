@@ -18,7 +18,7 @@ $(function() {
     });
 
     //ヘッダースクロールのカラー変更
-    var imgHeight = $('.top-wrapper').outerHeight(); //画像の高さを取得。これがイベント発火位置になる。
+    var imgHeight = $('#top-wrapper').outerHeight(); //画像の高さを取得。これがイベント発火位置になる。
     var header = $('#top'); //ヘッダーコンテンツ
       
     $(window).on('load scroll', function(){

@@ -11,6 +11,7 @@ body {
   text-align: center;
 }
 
+/* ヘッダー */
 header {
   width: 100%;
   position: fixed;
@@ -89,6 +90,7 @@ header {
   clear: both;
 }
 
+/* トップラッパー */
 .top-wrapper {
   height: 789px;
   background-image: url(/images/earth2.jpg);
@@ -489,6 +491,11 @@ footer .up {
   margin-bottom: 10px;
 }
 
+.company-name {
+  font-size: 13px;
+  padding-top: 5px;
+}
+
 .footer-location {
   padding-top: 7px;
 }
@@ -531,3 +538,12 @@ footer .down {
   padding: 20px 0px;
 }
 
+/* postしてから */
+.thanks {
+  font-size: 18px;
+  padding-bottom: 50px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.836);
+}
+
+/* メディアクエリ */
