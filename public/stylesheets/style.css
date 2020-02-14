@@ -8,7 +8,7 @@ body {
   width: 100%;
   margin: 0 auto;
   padding-top: 10px;
-  padding-bottom: 20px;
+  padding-bottom: 0px;
   text-align: center;
 }
 
@@ -45,8 +45,11 @@ header {
   display: none;
 }
 
+.fa-times {
+  display: none;
+}
+
 .header-right {
-  display: block;
   /*float: right;*/
   display: flex;
   justify-content: flex-end;
@@ -81,6 +84,7 @@ header {
   margin: 0px 0;
   padding: 16px 30px;
   margin-left: 5px;
+  display: 5px;
 }
 
 .entry .fa {
@@ -555,11 +559,16 @@ footer .down {
     padding-right: 10px;
   }
 
+  .header-left {
+    width: 0;
+  }
+
   .header-right {
-    padding: 65px 0 0 0;
+    padding: 65px 0 0px 19px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    text-align: left;
   }
 
   .header-fa {
@@ -572,17 +581,26 @@ footer .down {
   }
 
   .menu-button {
-    font-size: 14px;
+    font-size: 10px;
   }
 
   .header-side {
     width: 90%;
-    padding: 15px 0px;
+    padding: 8px 0px;
     margin-bottom: 30px;
+    display: none;
+  }
+
+  .entry .fa {
+    margin-left: 0px;
+  }
+
+  .top-wrapper {
+    height: 600px;
   }
 
   .think {
-    font-size: 40px;
+    font-size: 35px;
   }
 
   .sub-title {
