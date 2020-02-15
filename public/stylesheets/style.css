@@ -296,14 +296,11 @@ header {
 }
 
 .group-img {
-  width: 70%;
+  width: 72%;
   margin: 0 auto;
   display:block;
   background-color: white;
   padding: 20px;
-}
-.group-img img {
-  width: 75%;
 }
 
 .white-cript-hole {
@@ -552,6 +549,10 @@ footer .down {
 
 /* メディアクエリ */
 @media (max-width: 918px) {
+  * {
+    box-sizing: border-box;
+  }
+
   header {
     background-color: rgba(255, 0, 0, 0.836);
     box-sizing: border-box;
@@ -564,7 +565,8 @@ footer .down {
   }
 
   .header-right {
-    padding: 65px 0 0px 19px;
+    margin-top: 45px;
+    padding: 0px 0 0px 70px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -592,7 +594,7 @@ footer .down {
   }
 
   .entry .fa {
-    margin-left: 0px;
+    margin-left: 5px;
   }
 
   .top-wrapper {
@@ -601,17 +603,126 @@ footer .down {
 
   .think {
     font-size: 35px;
+    padding-top: 65px;
   }
 
   .sub-title {
+    font-size: 11px;
+  }
+
+  .company-about {
+    font-size: 20px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .company-about::before {
+    padding-top: 35px;
+  }
+
+  .about {
+    padding-top: 100px;
+    font-size: 70px;
+  }
+
+  .second-row {
+    padding-top: 70px;
+    padding-bottom: 60px;
+    padding-right: 0%;
+    padding-left: 0%;
+  }
+
+  .six-point-about {
     font-size: 13px;
   }
 
-  .price-img img {
+  .bdTtl:before,.bdTtl:after {
+    width: 50px;
+  }
+
+  .six-point {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .point {
+    padding: 40px 20px 20px 20px;
+    box-sizing: content-box;
+    width: 29%;
+    margin: 13px 7px;
+  }
+
+  .point-title {
+    font-size: 10px;
+  }
+
+  .description {
+    font-size: 0.4rem;
+    padding-top: 15px;
+  }
+
+  .second-row-cript {
+    padding: 70px 0;
+  }
+
+  .group-img {
+    width: 100%;
+    padding: 15px 10px;
+  }
+
+  .group-img img {
+    width: 100%;
+  }
+
+  .white-cript {
+    padding: 10px;
+    font-size: 10px;
     width: 90%;
+    margin-top: 40px;
+    letter-spacing: 1px;
+    line-height: 20px;
+  }
+
+  .second-row-price {
+    padding: 10px;
+    padding-top: 80px;
+    padding-bottom: 50px;
+  }
+
+  .price-img img {
+    width: 100%;
+    padding: 0;
+    padding-bottom: 10px;
+  }
+
+  .white-price {
+    padding: 20px;
+    font-size: 10px;
   }
 
   .third-row img {
     display: none;
+  }
+
+  .white {
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .form {
+    flex-basis: 100%;
+  }
+
+  .attention {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .down div {
+    font-size: 5px;
+    width: 90%;
+    margin: 0 auto;
   }
 }
