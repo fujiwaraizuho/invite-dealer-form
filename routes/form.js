@@ -42,7 +42,7 @@ router.post('/post', (req, res, next) => {
     saveToFile(filename);
 
 
-    res.render('form', data);
+    res.render('post', data);
 })
 
 
