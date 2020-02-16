@@ -17,24 +17,6 @@ $(function() {
         },'slow');
     });
 
-    //ヘッダーのボタン表示 変更しなければ
-    $('.fa-times').hide();
-
-    $('.header-fa').click(function() {
-        if ($('#header-right').hasClass('header-hide')) {
-            $('#header-right').removeClass('header-hide');
-            $('#header-right').hide();
-            $('.fa-bars').show();
-            $('.fa-times').hide();
-        }else {
-            $('#header-right').addClass('header-hide');
-            $('#header-right').slideDown();
-            $('.fa-bars').hide();
-            $('.fa-times').show();
-            $('.header-side').slideDown();
-        }  
-    });
-
     //ヘッダースクロールのカラー変更
     var imgHeight = $('#top-wrapper').outerHeight(); //画像の高さを取得。これがイベント発火位置になる。
     var header = $('#top'); //ヘッダーコンテンツ
@@ -42,10 +24,12 @@ $(function() {
     $(window).on('load scroll', function(){
         if ($(window).scrollTop() < imgHeight) {
             //メインビジュアル内にいるので、クラスを外す。
-            header.removeClass('headerColor-default');
+            $('header').removeClass('headerColor-default');
+            $('.hide').css('color', 'white');
         }else {
             //メインビジュアルより下までスクロールしたので、クラスを付けて色を変える
-            header.addClass('headerColor-default');
+            $('header').addClass('headerColor-default');
+            $('.hide').css('color', 'black');
         }
     });
 

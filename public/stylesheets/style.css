@@ -18,12 +18,12 @@ header {
   position: fixed;
   top: 0;
   z-index: 10;
-  background-color: rgba(225,225, 225, 0.2);
+  background-color: rgba(225, 225, 225, 0.089);
   max-width: 1500px;
 }
 
 .headerColor-default {
-  background-color: rgba(255, 0, 0, 0.836);
+  background-color: rgb(255, 219, 112);
 }
 
 .header-left {
@@ -33,6 +33,7 @@ header {
 .header-left img {
   padding-top: 3.5px;
   width: 200px;
+  margin-left: 5px;
 }
 
 .Japan {
@@ -63,7 +64,7 @@ header {
 
 .menu-button {
   color: white;
-  font-weight: bold;
+  font-weight: lighter;
   letter-spacing: 1px;
   text-decoration: none;
 }
@@ -76,13 +77,14 @@ header {
   padding: 20px 16px;
   font-size: 13px;
   margin-top: -5px;
+  margin-bottom: 10px;
+  margin-right: 5px;
 }
 
 .entry {
   background-color: white;
   border-radius: 3px;
-  margin: 0px 0;
-  padding: 16px 30px;
+  padding: 20px 30px;
   margin-left: 5px;
   display: 5px;
 }
@@ -296,11 +298,16 @@ header {
 }
 
 .group-img {
-  width: 72%;
+  box-sizing: border-box;
+  width: 75%;
   margin: 0 auto;
   display:block;
   background-color: white;
   padding: 20px;
+}
+
+.group-img img {
+  width: 90%;
 }
 
 .white-cript-hole {
@@ -548,29 +555,44 @@ footer .down {
 }
 
 /* メディアクエリ */
-@media (max-width: 918px) {
+@media (max-width: 957px) {
   * {
     box-sizing: border-box;
   }
 
+  .container {
+    padding-top: 5px;
+  }
+
+  .center {
+    margin-top: 170px;
+  }
+
   header {
-    background-color: rgba(255, 0, 0, 0.836);
+    background-color: rgba(255, 255, 255, 0.356);
     box-sizing: border-box;
     padding-left: 10px;
     padding-right: 10px;
+    padding-bottom: 0px;
   }
 
   .header-left {
     width: 0;
   }
+  
+  .header-left img {
+    width: 100px;
+    padding: 0;
+  }
+
+  .hide {
+    display: none;
+  }
 
   .header-right {
-    margin-top: 45px;
-    padding: 0px 0 0px 70px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: left;
+    margin-top: 0px;
+    padding: 0px 0 0px 0px;
+    text-align: right;
   }
 
   .header-fa {
@@ -587,10 +609,17 @@ footer .down {
   }
 
   .header-side {
-    width: 90%;
-    padding: 8px 0px;
-    margin-bottom: 30px;
-    display: none;
+    font-weight: lighter;
+    color: white;
+    background-color: rgba(0, 83, 161, 0.781);
+    padding: 3px 12px;
+    margin-bottom: 0px;
+    margin-top: 3px;
+  }
+
+  .header-side .menu-button {
+    font-weight: lighter;
+    color: rgb(225, 225, 225);
   }
 
   .entry .fa {
@@ -598,12 +627,12 @@ footer .down {
   }
 
   .top-wrapper {
-    height: 600px;
+    height: 400px;
   }
 
   .think {
-    font-size: 35px;
-    padding-top: 65px;
+    font-size: 30px;
+    padding-top: 0px;
   }
 
   .sub-title {
@@ -657,8 +686,8 @@ footer .down {
   }
 
   .description {
-    font-size: 0.4rem;
-    padding-top: 15px;
+    font-size: 0.2rem;
+    padding-top: 10px;
   }
 
   .second-row-cript {
@@ -713,6 +742,44 @@ footer .down {
 
   .form {
     flex-basis: 100%;
+  }
+
+  .cp_iptxt {
+    position: relative;
+    width: 70%;
+    margin: 25px auto;
+    box-sizing: border-box;
+  }
+
+  .cp_iptxt input[type='text'] {
+    font: 10px/25px sans-serif;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0.3em;
+    padding-left: 40px;
+    letter-spacing: 0.5px;
+    border: 0;
+  }
+
+  .cp_iptxt i {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 8px 5px;
+    transition: 0.3s;
+    color: #aaaaaa;
+  }
+
+  .register-button {
+    font-size: 10px;
+    padding: 6px 40px;
+    color: #ffffff;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    background-color: #ff892B;
+    border-radius: 30px;
+    box-shadow: 0px 4px #bd6822;
+    cursor: pointer;
+    margin-bottom: 10px;
   }
 
   .attention {
